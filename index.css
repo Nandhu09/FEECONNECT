@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+}
+
+#login, #set-password, #home, #mentor-dashboard, #advisor-dashboard {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login form, #set-password form, #home .personal-info, #home .search-bar {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], select {
+    width: calc(100% - 23px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 3%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#search-results, #mentor-results, #advisor-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f5e7;
+    border-radius: 4px;
+}
+
+#search-results p, #mentor-results p, #advisor-results p {
+    margin: 5px 0;
+}
